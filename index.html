@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" action="/">
+        <h1>დარეგისტრირდი</h1>
+        <div class="input-control">
+          <label for="username">სახელი</label>
+          <input
+            id="username"
+            name="username"
+            type="text"
+            placeholder="მარიამ"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="lastname">გვარი</label>
+          <input
+            id="lastname"
+            name="lastname"
+            type="text"
+            placeholder="გოგოლაძე"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="number">ტელეფონის ნომერი</label>
+          <input
+            id="number"
+            name="mail"
+            type="text"
+            placeholder="+995 557 50 65 50"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="mail">მეილი</label>
+          <input
+            id="mail"
+            name="mail"
+            type="text"
+            placeholder="gogoladze@gmail.com"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="password">პაროლი</label>
+            <input
+              id="password"
+              name="password"
+              type="password"
+              placeholder="*****"
+            />
+            <div class="error"></div>
+          </div>
+        <button type="submit">შემდეგი</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
